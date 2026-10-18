@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lawson Oliveira Lima</title>
+  <meta name="description" content="Lawson Oliveira Lima — AI/ML Engineer. CV, publications and projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <h1>Lawson Oliveira Lima</h1>
+      <p class="tagline">AI/ML Engineer</p>
+      <p class="meta">MSc CentraleSupélec · BSc Electrical Engineering, UFC</p>
+      <nav class="links">
+        <a href="https://www.linkedin.com/in/lawson-oliveira-lima">LinkedIn</a>
+        <a href="https://github.com/LawsonOliveira">GitHub</a>
+        <a href="mailto:lawson.olima@gmail.com">Email</a>
+        <a href="cv.pdf" class="primary">Download CV (PDF)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <nav class="toc">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+    </nav>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>AI/ML Engineer with a Master's degree from CentraleSupélec (top French engineering school) and a Bachelor's degree from UFC (Brazil). Specialized in Software Engineering, Geometric Deep Learning and GNNs, with experience in Time Series, Anomaly Detection, Audio Processing and Agentic AI (RAG, Multi-Agent Orchestration, LLMOps).</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <article class="entry">
+        <div class="entry-head">
+          <h3>AI Engineer (Backend &amp; Infra)</h3>
+          <span class="date">07/2024 – Present</span>
+        </div>
+        <p class="org">Casa dos Ventos (TotalEnergies Joint Venture) — Brazil</p>
+        <ul>
+          <li>Architected a multi-agent system with guardrails, integrating WhatsApp, Salesforce Service Cloud, MCP servers and Langfuse for production observability and security regression testing.</li>
+          <li>Designed an agentic RAG layer connecting LLM agents to PostgreSQL via MCP, secured with Row-Level Security (RLS) for per-user/role data scoping.</li>
+          <li>Built OCR pipelines for document extraction, reaching approximately 100 weekly active users.</li>
+          <li>Own DevSecOps for the company's internal software systems, using AI to continuously track vulnerabilities and propose effective remediations.</li>
+        </ul>
+      </article>
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Machine Learning Researcher (Intern)</h3>
+          <span class="date">06/2023 – 01/2024</span>
+        </div>
+        <p class="org">Université Paris-Saclay &amp; Transvalor — France · MICS Lab (Mathematics and Informatics for Complexity and Systems)</p>
+        <ul>
+          <li>Designed a Geometric Deep Learning framework using PyTorch Geometric to emulate metal forging physics.</li>
+          <li>Managed large-scale geometric datasets (~1 TB) and orchestrated distributed training on HPC clusters using Slurm and multi-GPU (4×A100).</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Master's in Engineering</h3>
+          <span class="date">2021 – 2025</span>
+        </div>
+        <p class="org">CentraleSupélec — Paris-Saclay, France · GPA 3.79/4</p>
+        <ul>
+          <li><strong>Scholarship:</strong> CentraleSupélec Foundation Excellence Scholarship.</li>
+          <li><strong>Relevant courses:</strong> AI/ML, Bayesian Learning, Signal and Image Processing, Control Theory, Optimization, Algorithms and Complexity, Measure Theory, and Probability.</li>
+        </ul>
+      </article>
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Electrical Engineering</h3>
+          <span class="date">2019 – 2025</span>
+        </div>
+        <p class="org">Federal University of Ceará — Fortaleza, Brazil · GPA 9.47/10</p>
+        <ul>
+          <li><strong>Distinction:</strong> Summa Cum Laude (highest academic honor, awarded to the top-ranking student).</li>
+          <li><strong>Relevant courses:</strong> Statistics, C Programming, Computer Architecture, Analog and Digital Electronics, Communication Principles.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="publications">
+      <h2>Publications &amp; Theses</h2>
+      <ul class="pubs">
+        <li>
+          <strong>L. O. Lima</strong>. “A Hybrid GNN-Heuristic Approach for Unsupervised Partitioning of Featureless Graphs.”
+          <em>Undergraduate Thesis, CentraleSupélec &amp; Federal University of Ceará, Brazil, 2025.</em>
+          <a href="https://repositorio.ufc.br/bitstream/riufc/81907/3/2025_tcc_lolima.pdf">[PDF]</a>
+        </li>
+        <li>
+          <strong>L. O. Lima</strong>, et al. “Multilayer Perceptron-based Surrogate Models for Finite Element Analysis.”
+          <em>DCABES, Chizhou University, China, 2022.</em>
+          <a href="https://ieeexplore.ieee.org/document/10036602/">[IEEE]</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <dl class="skills">
+        <dt>Programming</dt><dd>Python, Rust, C++, TypeScript, NodeJS, Matlab, SQL</dd>
+        <dt>Background</dt><dd>Graph Theory, Linear Algebra, Optimization, Statistics, Audio/Image Processing</dd>
+        <dt>Frameworks</dt><dd>PyTorch, JAX, Lightning, PyTorch Geometric, Wandb, Pandas, Matplotlib, Flask</dd>
+        <dt>GenAI / LLMOps</dt><dd>Multi-Agent Systems, MCP, LiteLLM, Langfuse, RAG, Guardrails, CI/CD, Google ADK</dd>
+        <dt>Infra</dt><dd>Terraform, Slurm, Docker, Google Cloud, Serverless Systems</dd>
+        <dt>Languages</dt><dd>Portuguese (native), English (C1), French (C1), Spanish (A1)</dd>
+      </dl>
+      <h3 class="sub">Awards</h3>
+      <ul class="tags">
+        <li>Summa Cum Laude (UFC)</li>
+        <li>CentraleSupélec Foundation Excellence Scholarship</li>
+        <li>Google Cloud Associate</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card-head"><h3>Emotion Recognition</h3><span class="date">2023</span></div>
+          <p>Emotion detection model, deployed behind a web interface on Vercel and Azure.</p>
+          <ul class="tags small"><li>PyTorch</li><li>Pandas</li><li>Flask</li><li>React</li></ul>
+          <a href="https://github.com/LawsonOliveira/Emotion_recognition">View on GitHub →</a>
+        </article>
+        <article class="card">
+          <div class="card-head"><h3>Anomaly Detection in Electrocardiograms</h3><span class="date">2023</span></div>
+          <p>Anomaly detection in time series using generative models and autoencoders (LSTM-VAE).</p>
+          <ul class="tags small"><li>PyTorch</li><li>Pandas</li></ul>
+          <a href="https://github.com/LawsonOliveira/Anomaly_detection">View on GitHub →</a>
+        </article>
+        <article class="card">
+          <div class="card-head"><h3>Version Control System</h3><span class="date">2023</span></div>
+          <p>Command-line tool for managing and tracking changes to files in a repository.</p>
+          <ul class="tags small"><li>Rust</li></ul>
+          <a href="https://github.com/LawsonOliveira/VCS">View on GitHub →</a>
+        </article>
+        <article class="card">
+          <div class="card-head"><h3>Fluid Dynamics Simulation</h3><span class="date">2022</span></div>
+          <p>Physics-informed neural networks for partial differential equations in fluid dynamics, cutting computation time from days to hours.</p>
+          <ul class="tags small"><li>Python</li></ul>
+          <a href="https://github.com/LawsonOliveira/PINN">View on GitHub →</a>
+        </article>
+      </div>
+      <p class="more"><a href="https://github.com/LawsonOliveira?tab=repositories">More projects on GitHub →</a></p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>© Lawson Oliveira Lima</p>
+  </footer>
+</body>
+</html>
